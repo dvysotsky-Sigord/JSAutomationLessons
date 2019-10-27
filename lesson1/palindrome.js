@@ -6,12 +6,12 @@ function isPalindrome(text) {
 
 function verifyPalindrom(text) {
     if (isPalindrome(text)) {
-        console.log("String [" + text + "] is palindrome");
+        return "String [" + text + "] is palindrome";
     } else {
-        console.log("String [" + text + "] is NOT palindrome");
+        return "String [" + text + "] is NOT palindrome";
     }
 }
 
-verifyPalindrom("Bob");
-verifyPalindrom("test tset");
-verifyPalindrom("Test String");
+console.log(verifyPalindrom("Bob"));
+console.log(verifyPalindrom("test tset"));
+console.log(verifyPalindrom("Test String"));
